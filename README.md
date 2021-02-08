@@ -1,1 +1,1 @@
-# qialitec
+# qualitec
