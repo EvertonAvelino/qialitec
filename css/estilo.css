@@ -6,40 +6,40 @@
         #home {
             padding-top: 50px;
             height: 500px;
-            color: #fff;
-            background-color: rgb(66, 30, 229);
+            color: rgb(10, 5, 5);
+            background-color: rgb(245, 238, 238);;
         }
 
         #servicos {
             padding-top: 50px;
             height: 500px;
-            color: #fff;
-            background-color: #673ab7;
+            color:  rgb(10, 5, 5);
+            background-color:rgb(245, 238, 238);
         }
 
         #parceiros {
             padding-top: 50px;
             height: 500px;
-            color: #fff;
-            background-color: #17698a;
+            color:  rgb(10, 5, 5);
+            background-color: rgb(245, 238, 238);
         }
         #localizacao {
             padding-top: 50px;
             height: 500px;
-            color: #fff;
-            background-color: #17698a;
+            color:  rgb(10, 5, 5);
+            background-color: rgb(245, 238, 238);
         }
 
         #contato {
             padding-top: 50px;
             height: 500px;
-            color: #fff;
-            background-color: #7ab7be;
+            color:  rgb(10, 5, 5);
+            background-color: rgb(245, 238, 238);
         }
 
         #rodape {
             text-align: center;
-            background-color: hsl(187, 30%, 78%); 
+            background-color: rgb(245, 238, 238);
         }
 /*
     html {
