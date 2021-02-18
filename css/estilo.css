@@ -41,8 +41,11 @@
             text-align: center;
             background-color: rgb(245, 238, 238);
         }
-/*
-    html {
-        scroll-behavior: smooth;
-    }
-*/
+
+       .minha-fontes {      
+            font-family: "courier";
+
+            }
+
+
+    
