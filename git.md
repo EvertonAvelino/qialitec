@@ -1,4 +1,4 @@
-# GIT
+# comandos GIT
 
 ## Estados
 

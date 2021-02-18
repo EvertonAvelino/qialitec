@@ -57,16 +57,18 @@ O **master** é o branch principal do GIT.
 
 ##### Criando um novo branch
 
-	git branch bug-123
+	git branch Everton
 	
 ##### Trocando para um branch existente
 
-	git checkout bug-123
+	git checkout Everton
 
-
+### enviar arquivos para branch
+ git push --set-upstream origin Everton
+ 
 ##### Criar um novo branch e trocar 
 
-	git checkout -b bug-456
+	git checkout -b Everton
 	
 ##### Voltar para o branch principal (master)
 
@@ -74,7 +76,7 @@ O **master** é o branch principal do GIT.
 	
 ##### Resolver merge entre os branches
 
-	git merge bug-123
+	git merge Everton
 	
 Para realizar o *merge*, é necessário estar no branch que deverá receber as alterações. O *merge* pode automático ou manual. O merge automático será feito em arquivos textos que não sofreram alterações nas mesmas linhas, já o merge manual será feito em arquivos textos que sofreram alterações nas mesmas linhas.
 
@@ -83,7 +85,6 @@ A mensagem indicando um *merge* manual será:
 	Automerging meu_arquivo.txt
 	CONFLICT (content): Merge conflict in meu_arquivo.txt
 	Automatic merge failed; fix conflicts and then commit the result.
-
 
 ##### Apagando um branch
 
