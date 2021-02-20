@@ -23,7 +23,13 @@
             color:  rgb(10, 5, 5);
             background-color: rgb(245, 238, 238);
         }
-        #localizacao {
+        #servicos {
+            padding-top: 50px;
+            height: 500px;
+            color:  rgb(10, 5, 5);
+            background-color:rgb(245, 238, 238);
+        } 
+        #representantes {
             padding-top: 50px;
             height: 500px;
             color:  rgb(10, 5, 5);
