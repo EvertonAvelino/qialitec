@@ -71,27 +71,39 @@
         <div class="espaco-topo">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="imagens/carousel/slide1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-inner" role="listbox">
+                        <?php
+						$controle_ativo = 2;						
+						$result_carousel = "SELECT * FROM carrouses ORDER BY id ASC";
+						$resultado_carousel = mysqli_query($conn, $result_carousel);
+						while($row_carousel = mysqli_fetch_assoc($resultado_carousel)){ 
+							if($controle_ativo == 2){ ?>
+                        <div class="carousel-item active">
+                            <img src="img/carousel/<?php echo $row_carousel['imagen_carousel']; ?>"
+                                class="d-block w-100" alt="<?php echo $row_carousel['nome']; ?>">
+                        </div><?php
+                        	$controle_ativo = 1;
+							}else{ ?>
+                        <div class="carousel-item">
+                            <img src="img/carousel/<?php echo $row_carousel['imagen_carousel']; ?>"
+                                class="d-block w-100" alt="<?php echo $row_carousel['nome']; ?>">
+                        </div> <?php
+							}
+						}
+					?>
                     </div>
-                    <div class="carousel-item">
-                        <img src="imagens/carousel/slide1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="imagens/carousel/slide1.jpg" class="d-block w-100" alt="...">
-                    </div>
+                    <!-- Controles -->
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
-        </div>
-        <!--fim  slide -->
+            <!--fim  slide -->
     </header>
 
 
