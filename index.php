@@ -60,7 +60,7 @@
                         <a class="nav-link" href="#localizacao">localização</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contato.html">Contato</a>
+                        <a class="nav-link" href="contato.php">Contato</a>
                     </li>
                 </ul>
             </div>
