@@ -1,10 +1,14 @@
+<?php
+	include_once("conexao.php");
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Qualitec agro - contato</title>
+    <title>Qualitec agro</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -19,8 +23,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" src="js/funcoes.js">
-
-
+    <link href="css/bootstrap.css" rel="stylesheet">
 
 </head>
 
@@ -42,19 +45,19 @@
             <div class="collapse navbar-collapse minhas-fontes" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Empresa</a>
+                        <a class="nav-link" href="index.php">Empresa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#servicos">Serviços</a>
+                        <a class="nav-link" href="index.php">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                        <a class="nav-link" href="index.php">Parceiros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#representantes">Representantes</a>
+                        <a class="nav-link" href="index.php">Representantes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#localizacao">localização</a>
+                        <a class="nav-link" href="index.php">localização</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contato.php">Contato</a>
@@ -103,24 +106,29 @@
             <!--fim  slide -->
     </header>
 
-    <main class="container">
-        <section>
+    <section>
+        <br> <br>
+        <br> <br>
+        <br> <br>
+        <br> <br>
+        <br> <br>
+    </section>
+    <!-- link whatsapp-->
+    <a href="https://api.whatsapp.com/send?phone=5532984050969&text=Olá!" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
 
-        </section>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-        <!-- link whatsapp-->
-        <a href="https://api.whatsapp.com/send?phone=5532984050969&text=Olá!" class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
-        </a>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    </main>
     <footer>
 
-        <p id="rodape"> &copy; 2021 - CodePrime</p>
+        <p id="rodape"> &copy; 2021 - Qualitec</p>
+        <p id="rodape"> Desenvolvido por:<a href="https://api.whatsapp.com/send?phone=5532984050969&text=Olá!"
+                class="nav-link">Codeprime</a>
+        </p>
 
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
