@@ -60,7 +60,7 @@
                         <a class="nav-link" href="#localizacao">localização</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contato.html">Contato</a>
+                        <a class="nav-link" href="contato.php">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -137,7 +137,10 @@
 
     <footer>
 
-        <p id="rodape"> &copy; 2021 - CodePrime</p>
+        <p id="rodape"> &copy; 2021 - Qualitec</p>
+        <p id="rodape"> Desenvolvido por:<a href="https://api.whatsapp.com/send?phone=5532984050969&text=Olá!"
+                class="nav-link">Codeprime</a>
+        </p>
 
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
