@@ -107,11 +107,11 @@
     </header>
 
     <section>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
+
+
+
+
+
     </section>
     <!-- link whatsapp-->
     <a href="https://api.whatsapp.com/send?phone=5532984050969&text=Olá!" class="float" target="_blank">

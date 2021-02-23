@@ -129,7 +129,7 @@
         </section>
         <!-- link whatsapp-->
         <a href="https://api.whatsapp.com/send?phone=5532984050969&text=Olá!" class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
+            <em class="fa fa-whatsapp my-float"></em>
         </a>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">

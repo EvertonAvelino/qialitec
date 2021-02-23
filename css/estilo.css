@@ -55,7 +55,7 @@
             font-family: "courier new";
 
         }
-/*link whatsapp*/
+/*link whatsapp
  .float {
             right: 25px;
             position: fixed;
@@ -80,6 +80,7 @@
         .espaco-topo{
             margin-top: 55px;
             color: #fff;
+            position: absolute;
         }
 
 
