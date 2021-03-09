@@ -13,11 +13,11 @@
 
     >>>>>>> davi
     <!-- Latest compiled JavaScript -->
-    <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" src="js/funcoes.js">
     <link href="css/bootstrap.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
 
@@ -25,17 +25,22 @@
     <header>
 
         <nav class="menu fixed-top">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
-            <img class="logo" src="img/logoTopo.jpg" alt="logo">
-            <ul class="nav__links">
-                <li><a href="#home">Empresa</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#parceiros">Parceiros</a></li>
-                <li><a href="#representantes">Representantes</a></li>
-                <li><a href="#localizacao">localização</a></li>
-            </ul>
-            <a class="nav-link" href="contato.php"><button>Contato</button></a>
+            <<<<<<< HEAD <input type="checkbox" id="check">
+                <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+                <!--<img class="logo" src="img/logoTopo.jpg" alt="logo">-->
+                =======
+
+
+                <img class="logo" src="img/logo-qualitec.png" alt="logo">
+                >>>>>>> davi
+                <ul class="nav__links">
+                    <li><a href="#home">Empresa</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#parceiros">Parceiros</a></li>
+                    <li><a href="#representantes">Representantes</a></li>
+                    <li><a href="#localizacao">localização</a></li>
+                </ul>
+                <a class="nav-link" href="contato.php"><button>Contato</button></a>
 
         </nav>
         <!--fim do menu -->
@@ -88,18 +93,20 @@
 
             </div>
             <div id="parceiros" class="container-fluid">
-                <img id="partners" src="#">
-                <img id="partners" src="#">
-                <img id="partners" src="#">
-                <img id="partners" src="#">
-                <img id="partners" src="#">
-                <img id="partners" src="#">
-                <img id="partners" src="#">
-                <img id="partners" src="#">
-                <img id="partners" src="#">
-                <img id="partners" src="#">
-                <img id="partners" src="#">
-                <img id="partners" src="#">
+                <<<<<<< HEAD <img id="partners" src="#">
+                    <img id="partners" src="#">
+                    <img id="partners" src="#">
+                    <img id="partners" src="#">
+                    <img id="partners" src="#">
+                    <img id="partners" src="#">
+                    <img id="partners" src="#">
+                    <img id="partners" src="#">
+                    <img id="partners" src="#">
+                    <img id="partners" src="#">
+                    <img id="partners" src="#">
+                    <img id="partners" src="#">
+                    =======
+                    >>>>>>> davi
             </div>
             <div id="representantes" class="container-fluid">
                 <h1>Representantes</h1>
@@ -110,14 +117,19 @@
 
         </section>
         <!-- link whatsapp-->
-        <a href="https://api.whatsapp.com/send?phone=5532984050969&text=Olá!" class="float" target="_blank">
-            <em class="fa fa-whatsapp my-float"></em>
+        <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5532984050969&text=Olá!" target="_blank">
+            <i class="fa fa-whatsapp"></i>
         </a>
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <<<<<<< HEAD <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     </main>
 
+    =======
+
+
+
+    >>>>>>> davi
 
     <footer>
 
