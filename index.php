@@ -25,35 +25,24 @@
     <header>
 
         <nav class="menu fixed-top">
-            <<<<<<< HEAD <<<<<<< HEAD <input type="checkbox" id="check">
-                <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
-                <!--<img class="logo" src="img/logoTopo.jpg" alt="logo">-->
-                =======
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+            <!--<img class="logo" src="img/logoTopo.jpg" alt="logo">-->
+            =======
 
 
-                <img class="logo" src="img/logo-qualitec.png" alt="logo">
-                >>>>>>> davi
-                <ul class="nav__links">
-                    <li><a href="#home">Empresa</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#parceiros">Parceiros</a></li>
-                    <li><a href="#representantes">Representantes</a></li>
-                    <li><a href="#localizacao">localização</a></li>
-                </ul>
-                <a class="nav-link" href="contato.php"><button>Contato</button></a>
-                =======
 
 
-                <img class="logo" src="img/logo-qualitec.png" alt="logo">
-                <ul class="nav__links">
-                    <li><a href="#home">Empresa</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#parceiros">Parceiros</a></li>
-                    <li><a href="#representantes">Representantes</a></li>
-                    <li><a href="#localizacao">localização</a></li>
-                </ul>
-                <a class="nav-link" href="contato.php"><button>Contato</button></a>
-                >>>>>>> davi
+            <img class="logo" src="img/logo-qualitec.png" alt="logo">
+            <ul class="nav__links">
+                <li><a href="#home">Empresa</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#parceiros">Parceiros</a></li>
+                <li><a href="#representantes">Representantes</a></li>
+                <li><a href="#localizacao">localização</a></li>
+            </ul>
+            <a class="nav-link" href="contato.php"><button>Contato</button></a>
+            >>>>>>> davi
 
         </nav>
         <!--fim do menu -->
