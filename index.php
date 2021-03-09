@@ -25,7 +25,7 @@
     <header>
 
         <nav class="menu fixed-top">
-            <<<<<<< HEAD <input type="checkbox" id="check">
+            <<<<<<< HEAD <<<<<<< HEAD <input type="checkbox" id="check">
                 <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
                 <!--<img class="logo" src="img/logoTopo.jpg" alt="logo">-->
                 =======
@@ -41,6 +41,19 @@
                     <li><a href="#localizacao">localização</a></li>
                 </ul>
                 <a class="nav-link" href="contato.php"><button>Contato</button></a>
+                =======
+
+
+                <img class="logo" src="img/logo-qualitec.png" alt="logo">
+                <ul class="nav__links">
+                    <li><a href="#home">Empresa</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#parceiros">Parceiros</a></li>
+                    <li><a href="#representantes">Representantes</a></li>
+                    <li><a href="#localizacao">localização</a></li>
+                </ul>
+                <a class="nav-link" href="contato.php"><button>Contato</button></a>
+                >>>>>>> davi
 
         </nav>
         <!--fim do menu -->
@@ -93,7 +106,8 @@
 
             </div>
             <div id="parceiros" class="container-fluid">
-                <<<<<<< HEAD <img id="partners" src="#">
+                <img id="partners" src="#">
+                <!--
                     <img id="partners" src="#">
                     <img id="partners" src="#">
                     <img id="partners" src="#">
@@ -105,8 +119,10 @@
                     <img id="partners" src="#">
                     <img id="partners" src="#">
                     <img id="partners" src="#">
-                    =======
-                    >>>>>>> davi
+                   --> =======
+                >>>>>>> davi
+                =======
+
             </div>
             <div id="representantes" class="container-fluid">
                 <h1>Representantes</h1>
@@ -120,7 +136,7 @@
         <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5532984050969&text=Olá!" target="_blank">
             <i class="fa fa-whatsapp"></i>
         </a>
-        <<<<<<< HEAD <link rel="stylesheet"
+        <<<<<<< HEAD <<<<<<< HEAD <link rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     </main>
@@ -128,6 +144,11 @@
     =======
 
 
+
+    >>>>>>> davi
+    =======
+
+    </main>
 
     >>>>>>> davi
 
