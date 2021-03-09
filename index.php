@@ -10,65 +10,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Qualitec agro</title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" src="js/funcoes.js">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
-        <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
 
-            <!-- Brand/logo -->
-            <a class="navbar-brand" href="#home">
-                <img src="img/logoTopo.jpg" alt="logo" style="width:40px;">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Links -->
-
-            <div class="collapse navbar-collapse minhas-fontes" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Empresa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#servicos">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#parceiros">Parceiros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#representantes">Representantes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#localizacao">localização</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contato.php">Contato</a>
-                    </li>
-                </ul>
-            </div>
+        <nav class="menu fixed-top">
+            <input type="checkbox" id="check">
+		    <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+            <img class="logo" src="img/logoTopo.jpg" alt="logo">
+            <ul class="nav__links">
+                <li ><a href="#home">Empresa</a></li>
+                <li ><a href="#servicos">Serviços</a></li>
+                <li ><a href="#parceiros">Parceiros</a></li>
+                <li ><a href="#representantes">Representantes</a></li>
+                <li ><a href="#localizacao">localização</a></li>
+            </ul>
+            <a class="nav-link" href="contato.php"><button>Contato</button></a>
+            
         </nav>
         <!--fim do menu -->
 
         <!--inicio slide -->
-        <div class="espaco-topo">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-inner" role="listbox">
@@ -102,7 +72,6 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-            </div>
             <!--fim  slide -->
     </header>
 
@@ -117,7 +86,18 @@
 
             </div>
             <div id="parceiros" class="container-fluid">
-                <h1>Parceiros</h1>
+                <img id="partners" src="#" >
+                <img id="partners" src="#" >
+                <img id="partners" src="#" >
+                <img id="partners" src="#" >
+                <img id="partners" src="#" >
+                <img id="partners" src="#" >
+                <img id="partners" src="#" >
+                <img id="partners" src="#" >
+                <img id="partners" src="#" >
+                <img id="partners" src="#" >
+                <img id="partners" src="#" >
+                <img id="partners" src="#" >
             </div>
             <div id="representantes" class="container-fluid">
                 <h1>Representantes</h1>
@@ -127,7 +107,6 @@
             </div>
 
         </section>
-</main>
         <!-- link whatsapp-->
         <a href="https://api.whatsapp.com/send?phone=5532984050969&text=Olá!" class="float" target="_blank">
             <em class="fa fa-whatsapp my-float"></em>
@@ -135,6 +114,8 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
+</main>
+        
 
     <footer>
 
