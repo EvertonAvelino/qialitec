@@ -148,9 +148,29 @@
         }
         
         /*slide */
-
-        .espaco-topo{
+        .carousel-inner img {
+            width: 1349px;
+            height: 385px;
             margin-top: 55px;
-            color: #fff;
-            position: absolute;
+             
         }
+
+        #logoSlide {
+            width: 236px;
+            height: 197px;
+            position: relative;
+            left: 786px;
+        }
+        
+
+    .carousel-caption {
+        position: relative;
+        right: 15%;
+        bottom: 20px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: none;
+    }
