@@ -80,6 +80,7 @@
             cursor: pointer;
             margin-right: auto;
             height: 30px;
+            background-image: url("../img/logoTopo.png");
         }
         .nav__links {
             list-style: none;
