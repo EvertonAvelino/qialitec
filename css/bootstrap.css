@@ -6638,7 +6638,7 @@ a.close.disabled {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-align: none;
+  text-align: center;
 }
 
 @-webkit-keyframes spinner-border {
