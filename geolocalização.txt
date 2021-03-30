@@ -1,0 +1,7 @@
+<!--
+ ideia para implementar localização:
+ usar a função getlocation e getCurrentPosition javascript para pegar localização do ip, seja mobile ou pc, a partir dessa função usar condições 
+ para que em determinada latitude e longitude apareça na tela o respectivo representante da area
+ a base é esse algoritmo de exemplo que busquei na internet, agora é implementar o codigo de acordo com a necessidade
+exemplos: 
+-->
