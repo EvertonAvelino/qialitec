@@ -1,7 +1,13 @@
 <!--
+    a função getlocation verifica se a Geolocalização é suportada pelo browser, caso positivo executamos o método getCurrentPosition(), caso contrário, exibimos uma mensagem de erro para o usuário.
+Após isso, se o método getCurrentPosition() for executado com sucesso, ele irá retornar as coordenadas para a função específica no parâmetro (showPosition).
+A função showPosition() exibe a Latitude e a Longitude para o usuário.
+
+
+exemplo http://www.linhadecodigo.com.br/artigo/3653/usando-geolocalizacao-com-html5.aspx#ixzz6qYi3NoNG
+
  ideia para implementar localização:
- usar a função getlocation e getCurrentPosition javascript para pegar localização do ip, seja mobile ou pc, a partir dessa função usar condições 
+ usar a função  getCurrentPosition javascript para pegar latitude e longitude ip atraves do browser, seja mobile ou pc, a partir dessa função usar condições 
  para que em determinada latitude e longitude apareça na tela o respectivo representante da area
- a base é esse algoritmo de exemplo que busquei na internet, agora é implementar o codigo de acordo com a necessidade
-exemplos: 
+ 
 -->
