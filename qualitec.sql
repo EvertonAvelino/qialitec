@@ -1,68 +1,49 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
--- https://www.phpmyadmin.net/
+-- version 4.1.14
+-- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 22-Fev-2021 às 04:17
--- Versão do servidor: 10.4.17-MariaDB
--- versão do PHP: 8.0.0
+-- Generation Time: 31-Mar-2021 às 02:39
+-- Versão do servidor: 5.6.17
+-- PHP Version: 5.5.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 
 --
--- Banco de dados: `qualitec`
+-- Database: `qualitec`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `carrouses`
+-- Estrutura da tabela `contatos_msgs`
 --
 
-CREATE TABLE `carrouses` (
-  `id` int(11) NOT NULL,
-  `imagen_carousel` varchar(220) NOT NULL,
-  `nome` varchar(220) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+CREATE TABLE IF NOT EXISTS `contatos_msgs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(220) CHARACTER SET armscii8 NOT NULL,
+  `email` varchar(220) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `assunto` varchar(220) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `mensagem` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `data_envio` datetime NOT NULL,
+  `data_modif` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=8 ;
 
 --
--- Extraindo dados da tabela `carrouses`
+-- Extraindo dados da tabela `contatos_msgs`
 --
 
-INSERT INTO `carrouses` (`id`, `imagen_carousel`, `nome`) VALUES
-(1, 'slide1.jpg', 'slide 1'),
-(2, 'slide1.jpg', 'slide 2'),
-(3, 'slide1.jpg', 'slide 3'),
-(4, 'slide1.jpg', 'slide 4');
-
---
--- Índices para tabelas despejadas
---
-
---
--- Índices para tabela `carrouses`
---
-ALTER TABLE `carrouses`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT de tabelas despejadas
---
-
---
--- AUTO_INCREMENT de tabela `carrouses`
---
-ALTER TABLE `carrouses`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-COMMIT;
+INSERT INTO `contatos_msgs` (`id`, `name`, `email`, `assunto`, `mensagem`, `data_envio`, `data_modif`) VALUES
+(2, 'Everton Arlindo', 'evertonvitorfdv@gmail.com', 'mensagem de teste', 'testando o envio de mensagem por email', '2021-03-28 23:49:05', NULL),
+(7, 'Testando', 'evertonarlindo42@gmail.com', 'teste de email 2', 'asdjkasfjbsadvbvhbsavhsbvhsbvshvbshv', '2021-03-29 00:18:11', NULL);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
