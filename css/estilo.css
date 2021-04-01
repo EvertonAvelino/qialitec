@@ -150,7 +150,7 @@
         
         /*slide */
         .carousel-inner img {
-            width: 1349px;
+            width: auto;
             height: 385px;
             margin-top: 55px;
              
