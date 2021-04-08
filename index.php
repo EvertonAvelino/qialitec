@@ -22,7 +22,7 @@
         <div class="jumbotron servicos" id="servico">
             <div class="container text-center">
                 <h2 class="display-4">O que oferecemos</h2>
-                <p class="lead pb-4"> As melhores soluções pra vc agricultor</p>
+                <p class="lead pb-4"> As melhores soluções pra você agricultor</p>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="rounded-circle circulo centralizar shadow border border-primary">
