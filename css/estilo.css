@@ -7,14 +7,31 @@
             padding-top: 50px;
             height: 500px;
             color: rgb(10, 5, 5);
-            background-color: rgb(245, 238, 238);;
+            /*background-color: rgb(245, 238, 238);*/
         }
 
-        #servicos {
-            padding-top: 50px;
-            height: 500px;
-            color:  rgb(10, 5, 5);
-            background-color:rgb(212, 3, 3);
+        .servicos {
+            padding-top: 80px;
+            padding-bottom: 80px;
+            background-color: #fff !important;
+            border-radius: 0px; 
+            margin-bottom: 0rem !important;
+        }
+        .circulo{
+            width: 140px;
+            height: 140px;
+            font-size: 55px;
+            padding-top: 24px;
+            color:#007bff;
+        
+        }
+        .circulo:hover{
+            background-color:  #007bff;
+            color:#fff;
+        }
+        .centralizar{
+            margin: 0 auto !important;
+            float: none !important
         }
 
 /* Parceiros*/ 
@@ -163,7 +180,6 @@
             left: 894px;
         }
         
-
     .carousel-caption {
         position: relative;
         right: 15%;

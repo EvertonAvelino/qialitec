@@ -66,7 +66,7 @@
                         $mail->AltBody = $data['assunto'];
 
                         $mail->send();
-                        echo "<script>alert('Email de conatato enviado con sucesso')</script>";
+                        echo "<script>alert('Email de contato enviado con sucesso')</script>";
                     } catch (Exception $e) {
                         echo "<script>alert('Erro ao enviar mensagem ')</script>";
                     }
