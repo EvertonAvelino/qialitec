@@ -128,10 +128,16 @@
         }
         .logo {
             cursor: pointer;
-            margin-right: auto;
-            height: 30px;
+            margin-right: 493px;
+            height: auto;
+            color: #fff;
            
         }
+        .logoPerso{
+            border-radius: 10px;
+            
+        }
+
         .nav__links {
             list-style: none;
         }
@@ -199,11 +205,14 @@
         }
         
         /*slide */
-        .carousel-inner img {
-            width: auto;
+        #carousel-inner img {
+            width: 385px;
             height: 385px;
-            margin-top: 55px;
-             
+            margin-top: 50px;
+          
+        }
+        .d-block {
+            display:none;
         }
 
         #logoSlide {
@@ -220,7 +229,7 @@
         left: 15%;
         z-index: 10;
         padding-top: 20px;
-        padding-bottom: 20px;
+       /* padding-bottom: 20px;*/
         color: #fff;
         text-align: none;
     }
