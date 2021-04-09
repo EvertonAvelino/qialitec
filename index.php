@@ -1,16 +1,20 @@
 <?php
     include ("./header.html");
 ?>
-
-<div class="container">
-    <section>
-        <div id="home" class="container-fluid">
-            <h2>Quem somos</h2>
-            <p> A Qualitec foi fundada em 2006,temos a agricultura como base, onde seus fundadores tem ligação direta
+<section>
+    <div class="jumbotron text-md-start descr-top" id="home">
+        <div class="container">
+            <h2 class="text-center">Quem somos</h2>
+            <hr>
+            <p>
+                &nbsp;&nbsp; A Qualitec foi fundada em 2006,temos a agricultura como base, onde seus fundadores tem
+                ligação
+                direta
                 com o
                 meio rural.
 
-                Com os objetivos de pensar soluções, trazer novidades, acompanhar as tendéncias de mercado e ter sempre
+                Com os objetivos de pensar soluções, trazer novidades, acompanhar as tendéncias de mercado e ter
+                sempre
                 as
                 melhores orientações para seus clientes, a Qualitec cresceu, buscando a excelência em atendimento e
                 primando
@@ -19,52 +23,120 @@
                 de seu corpo técnico, que hoje conta com Engenheiro Agrônomo e Técnicos Agrícolas.
             </p>
         </div>
-        <div class="jumbotron servicos" id="servico">
-            <div class="container text-center">
-                <h2 class="display-4">O que oferecemos</h2>
-                <p class="lead pb-4"> As melhores soluções pra você agricultor</p>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="rounded-circle circulo centralizar shadow border border-primary">
-                            <img class="d-block mx-auto mb-4 " src="./img/agricultura.png" alt="" width=" 72"
-                                height="72">
-                        </div>
-                        <h2 class="mt-4 mb-4">Insumos Agrícolas</h2>
-                        <p>Tendo como parceiros: Arysta, Basf, Sipcam, Oxiquimica, Dupont, Nufarm, Atanor do Brasil,
-                            Helm
-                            do Brasil, Heringer, Ubyfol, entre outros.</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="rounded-circle circulo centralizar shadow border border-primary">
-                            <img class="d-block mx-auto mb-4 " src="./img/engrenagem.png" alt="" width=" 72"
-                                height="72">
-                        </div>
-                        <h2 class="mt-4 mb-4">Assistencia Tecnica Autorizada CCM do Brasil </h2>
-                        <p>Prestamos serviços de manutenção em maquinas: Derriçadeiras, Roçadeiras, Perfuradores de
-                            solo, Motocultivadores, etc.</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="rounded-circle circulo centralizar shadow border border-primary">
-                            <img class="d-block mx-auto mb-4 " src="./img/ensumos.png" alt="" width=" 72" height="72">
+    </div>
+    <div class="jumbotron text-md-start descr-top" id="missao">
+        <div class="container">
+            <h2 class="text-center">Missão</h2>
+            <hr>
+            <p>
+                &nbsp;&nbsp;Satisfação completa oferecendo produtos e serviços que atendam os problemas e as
+                necessidades de nossos clientes, bem como, em investimentos na qualificação do corpo funcional, seja
+                na
+                atenção direcionada ao cliente produtor, no contexto de um relacionamento positivo com as
+                comunidades
+                envolvidas e com o meio ambiente.
+            </p>
+        </div>
+    </div>
+    <div class="jumbotron text-md-start descr-top" id="visao">
+        <div class="container">
+            <h2 class="text-center">Visão</h2>
+            <hr>
+            <ul>
+                <p>
+                    &nbsp;&nbsp; Nossa visão é atender produtores de forma personalizada, conquistando uma clientela
+                    fiel, através
+                    do bom atendimento e preços competitivos, oferecendo produtos e serviços de qualidade, fatores estes
+                    da maior importância na construção de diferenciação e credibilidade no mercado em que atua.
+                </p>
+            </ul>
+        </div>
+    </div>
+    <div class="jumbotron text-md-start descr-top" id="valores">
+        <div class="container">
+            <h2 class="text-center">Valores</h2>
+            <hr>
+            <h5>Satisfazer seus Clientes:</h5>
+            <ul class="list-group">
+                <li> Satisfazer os clientes é garantir a continuidade do nosso negócio.</li>
+                <li>como diferencial uma estrutura ágil, flexível e comprometida.</li>
+                <li> Oferecer produtos e serviços de qualidade e competência, que atendam as necessidades do produtor.
+                </li>
+                <li>A qualidade deve ser percebida em todas as nossas ações.</li>
+                <li>A qualidade deve ser percebida em todas as nossas ações.</li>
+                <li> Representantes capacitados para prestar total assistência ao produtor.</li>
+            </ul>
+            <br>
+            <h5> Preservar o Meio Ambiente:</h5>
+            <ul>
+                <li>Prevenir a poluição e minimizar qualquer dano ao meio ambiente que possa vir a ser gerado pelas
+                    suas atividades, serviços e produtos.</li>
+                <li>Atender as legislações, normas ambientais e outros requisitos subscritos aplicáveis.</li>
+            </ul>
+            <br>
+            <h5>Profissionalismo:</h5>
 
-                        </div>
-                        <h2 class="mt-4 mb-4">Materiais para irrigação e pulverização</h2>
-                        <p>Yamaho, Jacto</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="rounded-circle circulo centralizar shadow border border-primary">
-                            <img class="d-block mx-auto mb-4 " src="./img/verdura.png" alt="" width=" 72" height="72">
+            <ul>
 
-                        </div>
-                        <h2 class="mt-4 mb-4">Beneficiamento de Alimentos</h2>
-                        <p>Com maquinário moderno para seleção dos frutos</p>
-                    </div>
-                </div>
+                <li>Oportunizar eventos a campo, de demonstração e treinamento quanto a aplicabilidade dos insumos e
+                    manejo agricola.</li>
+                <li> Disponibilizar estrutura física capaz de oportunizar um vasto circulo de relacionamento
+                    empresa,
+                    fornecedor, cliente.</li>
 
-            </div>
+            </ul>
+
+            <p>Assim, a Qualitec, a fiel parceira do produtor, se consagra como um referencial de qualidade
+                empenhada na busca constante de permanecer ao lado do homem do campo.
+            </p>
 
         </div>
+    </div>
+
+</section>
+<div class="jumbotron servicos" id="servico">
+    <div class="container text-center">
+        <h2 class="display-4">O que oferecemos:</h2>
+        <hr>
+        <p class="lead pb-4"> As melhores soluções pra você agricultor</p>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="rounded-circle circulo centralizar shadow border border-primary">
+                    <img class="d-block mx-auto mb-4 " src="./img/agricultura.png" alt="" width=" 72" height="72">
+                </div>
+                <h2 class="mt-4 mb-4">Insumos Agrícolas</h2>
+                <p>Tendo como parceiros: Arysta, Basf, Sipcam, Oxiquimica, Dupont, Nufarm, Atanor do Brasil,
+                    Helm
+                    do Brasil, Heringer, Ubyfol, entre outros.</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="rounded-circle circulo centralizar shadow border border-primary">
+                    <img class="d-block mx-auto mb-4 " src="./img/engrenagem.png" alt="" width=" 72" height="72">
+                </div>
+                <h2 class="mt-4 mb-4">Assistencia Tecnica Autorizada CCM do Brasil </h2>
+                <p>Prestamos serviços de manutenção em maquinas: Derriçadeiras, Roçadeiras, Perfuradores de
+                    solo, Motocultivadores, etc.</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="rounded-circle circulo centralizar shadow border border-primary">
+                    <img class="d-block mx-auto mb-4 " src="./img/ensumos.png" alt="" width=" 72" height="72">
+
+                </div>
+                <h2 class="mt-4 mb-4">Materiais para irrigação e pulverização</h2>
+                <p>Yamaho, Jacto</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="rounded-circle circulo centralizar shadow border border-primary">
+                    <img class="d-block mx-auto mb-4 " src="./img/verdura.png" alt="" width=" 72" height="72">
+
+                </div>
+                <h2 class="mt-4 mb-4">Beneficiamento de Alimentos</h2>
+                <p>Com maquinário moderno para seleção dos frutos</p>
+            </div>
+        </div>
+    </div>
 </div>
+
 <div id="parceiros" class="container-fluid">
     <img id="partners" src="#">
     <img id="partners" src="#">
