@@ -102,7 +102,8 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="rounded-circle circulo centralizar shadow border border-primary">
-                    <img class="d-block mx-auto mb-4 " src="./img/agricultura.png" alt="" width=" 72" height="72">
+                    <img class="d-block mx-auto mb-4 " src="./img/servicos/agricultura.png" alt="" width=" 72"
+                        height="72">
                 </div>
                 <h2 class="mt-4 mb-4">Insumos Agrícolas</h2>
                 <p>Tendo como parceiros: Arysta, Basf, Sipcam, Oxiquimica, Dupont, Nufarm, Atanor do Brasil,
@@ -111,7 +112,8 @@
             </div>
             <div class="col-lg-4">
                 <div class="rounded-circle circulo centralizar shadow border border-primary">
-                    <img class="d-block mx-auto mb-4 " src="./img/engrenagem.png" alt="" width=" 72" height="72">
+                    <img class="d-block mx-auto mb-4 " src="./img/servicos/engrenagem.png" alt="" width=" 72"
+                        height="72">
                 </div>
                 <h2 class="mt-4 mb-4">Assistencia Tecnica Autorizada CCM do Brasil </h2>
                 <p>Prestamos serviços de manutenção em maquinas: Derriçadeiras, Roçadeiras, Perfuradores de
@@ -119,7 +121,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="rounded-circle circulo centralizar shadow border border-primary">
-                    <img class="d-block mx-auto mb-4 " src="./img/ensumos.png" alt="" width=" 72" height="72">
+                    <img class="d-block mx-auto mb-4 " src="./img/servicos/insumos.png" alt="" width=" 72" height="72">
 
                 </div>
                 <h2 class="mt-4 mb-4">Materiais para irrigação e pulverização</h2>
@@ -136,21 +138,25 @@
         </div>
     </div>
 </div>
+<div class="jumbotron container-fluid" id="parceiros">
+    <div class="container text-center">
+        <h2 class="mt-4 mb-4">Parceiros</h2>
 
-<div id="parceiros" class="container-fluid">
-    <img id="partners" src="#">
-    <img id="partners" src="#">
-    <img id="partners" src="#">
-    <img id="partners" src="#">
-    <img id="partners" src="#">
-    <img id="partners" src="#">
-    <img id="partners" src="#">
-    <img id="partners" src="#">
-    <img id="partners" src="#">
-    <img id="partners" src="#">
-    <img id="partners" src="#">
-    <img id="partners" src="#">
+        <img id="partners" src="#">
+        <img id="partners" src="#">
+        <img id="partners" src="#">
+        <img id="partners" src="#">
+        <img id="partners" src="#">
+        <img id="partners" src="#">
+        <img id="partners" src="#">
+        <img id="partners" src="#">
+        <img id="partners" src="#">
+        <img id="partners" src="#">
+        <img id="partners" src="#">
+        <img id="partners" src="#">
+    </div>
 </div>
+
 <div id="representantes" class="container-fluid">
     <h1>Representantes</h1>
 </div>

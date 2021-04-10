@@ -22,7 +22,7 @@
                     <label>
                         <h5>Telefone:</h5>
                     </label>
-                    <input type="TEXT" class="form-control" name="telefone" id="name"
+                    <input type="phone" class="form-control" name="telefone" id="name"
                         placeholder="Seu numero de telefone" required><br>
                 </div>
                 <div class="form-group">
@@ -44,7 +44,7 @@
                         <h5>Mensagem:</h5>
                     </label>
                     <textarea class="form-control" name="mensagem" id="mensagem" placeholder="mensagem" cols="45"
-                        rows="8" maxlength="6555" required></textarea>
+                        rows="8" maxlength="6555" required></textarea><br>
                     <button class="btn btn-success" type="submit" name="sendAddMsg">Enviar</button>
                 </div>
         </div>
