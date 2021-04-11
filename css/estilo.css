@@ -1,19 +1,53 @@
 @import url('https://fonts.googleapis.com/css2? family = Josefin + Sans: wght @ 500 & display = swap');
         body {
-            position: relative;
+           
+            padding-top: 3.1rem;
         }
+        html {
+            scroll-behavior: smooth;
+            }
 
         #home {
-            padding-top: 50px;
-            height: 500px;
+            padding-top: 77px;
+            padding-bottom: 50px;
             color: rgb(10, 5, 5);
-            /*background-color: rgb(245, 238, 238);*/
+           
+        }
+        #missao {
+            padding-top:  30px;
+            padding-bottom: 38px;
+            color: rgb(10, 5, 5);
+            
+        }
+        #visao {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            color: rgb(10, 5, 5);
+            
+        }
+        #valores {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: rgb(10, 5, 5);
+            
+        }
+        .descr-top{
+           
+            border-radius: 0px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding-top: 150px;
+            padding-bottom: 150px;
+            color: #fff;
+            margin-bottom: 0rem !important;
         }
 
-        .servicos {
+
+        .servicos{
             padding-top: 80px;
             padding-bottom: 80px;
-            background-color: #fff !important;
+            background-color: #fff;
             border-radius: 0px; 
             margin-bottom: 0rem !important;
         }
@@ -67,6 +101,9 @@
             text-align: center;
             background-color: rgb(245, 238, 238);
         }
+        #font-perso{
+            font-size: none !important;
+        }
     /*fonte personalizada*/
        .minhas-fontes {      
             font-family: 'Josefin Sans', sans-serif;
@@ -78,7 +115,7 @@
             margin: 0;
             padding: 0;
         }
-        li, a, button {
+      .font-perso  li, a, button {
             font-family: 'Josefin Sans', sans-serif;
             font-weight: 400;
             font-size: 18px;
@@ -95,10 +132,16 @@
         }
         .logo {
             cursor: pointer;
-            margin-right: auto;
-            height: 30px;
+            margin-right: 493px;
+            height: auto;
+            color: #fff;
            
         }
+        .logoPerso{
+            border-radius: 10px;
+            
+        }
+
         .nav__links {
             list-style: none;
         }
@@ -166,11 +209,14 @@
         }
         
         /*slide */
-        .carousel-inner img {
-            width: auto;
+        #carousel-inner img {
+            width: 385px;
             height: 385px;
-            margin-top: 55px;
-             
+            margin-top: 50px;
+          
+        }
+        .d-block {
+            display:none;
         }
 
         #logoSlide {
@@ -187,7 +233,7 @@
         left: 15%;
         z-index: 10;
         padding-top: 20px;
-        padding-bottom: 20px;
+       /* padding-bottom: 20px;*/
         color: #fff;
         text-align: none;
     }
