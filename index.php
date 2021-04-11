@@ -1,99 +1,99 @@
 <?php
     include ("./header.html");
 ?>
-<section>
-    <div class="jumbotron text-md-start descr-top" id="home">
-        <div class="container">
-            <h2 class="text-center">Quem somos</h2>
-            <hr>
+
+<div class="jumbotron text-md-start descr-top" id="home">
+    <div class="container">
+        <h2 class="text-center">Quem somos</h2>
+        <hr>
+        <p>
+            &nbsp;&nbsp; A Qualitec foi fundada em 2006,temos a agricultura como base, onde seus fundadores tem
+            ligação
+            direta
+            com o
+            meio rural.
+
+            Com os objetivos de pensar soluções, trazer novidades, acompanhar as tendéncias de mercado e ter
+            sempre
+            as
+            melhores orientações para seus clientes, a Qualitec cresceu, buscando a excelência em atendimento e
+            primando
+            sempre pela total satisfação do seu cliente, seja através do mix de produtos oferecidos ou pela
+            competéncia
+            de seu corpo técnico, que hoje conta com Engenheiro Agrônomo e Técnicos Agrícolas.
+        </p>
+    </div>
+</div>
+<div class="jumbotron text-md-start descr-top" id="missao">
+    <div class="container">
+        <h2 class="text-center">Missão</h2>
+        <hr>
+        <p>
+            &nbsp;&nbsp;Satisfação completa oferecendo produtos e serviços que atendam os problemas e as
+            necessidades de nossos clientes, bem como, em investimentos na qualificação do corpo funcional, seja
+            na
+            atenção direcionada ao cliente produtor, no contexto de um relacionamento positivo com as
+            comunidades
+            envolvidas e com o meio ambiente.
+        </p>
+    </div>
+</div>
+<div class="jumbotron text-md-start descr-top" id="visao">
+    <div class="container">
+        <h2 class="text-center">Visão</h2>
+        <hr>
+        <ul>
             <p>
-                &nbsp;&nbsp; A Qualitec foi fundada em 2006,temos a agricultura como base, onde seus fundadores tem
-                ligação
-                direta
-                com o
-                meio rural.
-
-                Com os objetivos de pensar soluções, trazer novidades, acompanhar as tendéncias de mercado e ter
-                sempre
-                as
-                melhores orientações para seus clientes, a Qualitec cresceu, buscando a excelência em atendimento e
-                primando
-                sempre pela total satisfação do seu cliente, seja através do mix de produtos oferecidos ou pela
-                competéncia
-                de seu corpo técnico, que hoje conta com Engenheiro Agrônomo e Técnicos Agrícolas.
+                &nbsp;&nbsp; Nossa visão é atender produtores de forma personalizada, conquistando uma clientela
+                fiel, através
+                do bom atendimento e preços competitivos, oferecendo produtos e serviços de qualidade, fatores estes
+                da maior importância na construção de diferenciação e credibilidade no mercado em que atua.
             </p>
-        </div>
+        </ul>
     </div>
-    <div class="jumbotron text-md-start descr-top" id="missao">
-        <div class="container">
-            <h2 class="text-center">Missão</h2>
-            <hr>
-            <p>
-                &nbsp;&nbsp;Satisfação completa oferecendo produtos e serviços que atendam os problemas e as
-                necessidades de nossos clientes, bem como, em investimentos na qualificação do corpo funcional, seja
-                na
-                atenção direcionada ao cliente produtor, no contexto de um relacionamento positivo com as
-                comunidades
-                envolvidas e com o meio ambiente.
-            </p>
-        </div>
+</div>
+<div class="jumbotron text-md-start descr-top" id="valores">
+    <div class="container">
+        <h2 class="text-center">Valores</h2>
+        <hr>
+        <h5>Satisfazer seus Clientes:</h5>
+        <ul class="list-group">
+            <li> Satisfazer os clientes é garantir a continuidade do nosso negócio.</li>
+            <li>como diferencial uma estrutura ágil, flexível e comprometida.</li>
+            <li> Oferecer produtos e serviços de qualidade e competência, que atendam as necessidades do produtor.
+            </li>
+            <li>A qualidade deve ser percebida em todas as nossas ações.</li>
+            <li>A qualidade deve ser percebida em todas as nossas ações.</li>
+            <li> Representantes capacitados para prestar total assistência ao produtor.</li>
+        </ul>
+        <br>
+        <h5> Preservar o Meio Ambiente:</h5>
+        <ul>
+            <li>Prevenir a poluição e minimizar qualquer dano ao meio ambiente que possa vir a ser gerado pelas
+                suas atividades, serviços e produtos.</li>
+            <li>Atender as legislações, normas ambientais e outros requisitos subscritos aplicáveis.</li>
+        </ul>
+        <br>
+        <h5>Profissionalismo:</h5>
+
+        <ul>
+
+            <li>Oportunizar eventos a campo, de demonstração e treinamento quanto a aplicabilidade dos insumos e
+                manejo agricola.</li>
+            <li> Disponibilizar estrutura física capaz de oportunizar um vasto circulo de relacionamento
+                empresa,
+                fornecedor, cliente.</li>
+
+        </ul>
+
+        <p>Assim, a Qualitec, a fiel parceira do produtor, se consagra como um referencial de qualidade
+            empenhada na busca constante de permanecer ao lado do homem do campo.
+        </p>
+
     </div>
-    <div class="jumbotron text-md-start descr-top" id="visao">
-        <div class="container">
-            <h2 class="text-center">Visão</h2>
-            <hr>
-            <ul>
-                <p>
-                    &nbsp;&nbsp; Nossa visão é atender produtores de forma personalizada, conquistando uma clientela
-                    fiel, através
-                    do bom atendimento e preços competitivos, oferecendo produtos e serviços de qualidade, fatores estes
-                    da maior importância na construção de diferenciação e credibilidade no mercado em que atua.
-                </p>
-            </ul>
-        </div>
-    </div>
-    <div class="jumbotron text-md-start descr-top" id="valores">
-        <div class="container">
-            <h2 class="text-center">Valores</h2>
-            <hr>
-            <h5>Satisfazer seus Clientes:</h5>
-            <ul class="list-group">
-                <li> Satisfazer os clientes é garantir a continuidade do nosso negócio.</li>
-                <li>como diferencial uma estrutura ágil, flexível e comprometida.</li>
-                <li> Oferecer produtos e serviços de qualidade e competência, que atendam as necessidades do produtor.
-                </li>
-                <li>A qualidade deve ser percebida em todas as nossas ações.</li>
-                <li>A qualidade deve ser percebida em todas as nossas ações.</li>
-                <li> Representantes capacitados para prestar total assistência ao produtor.</li>
-            </ul>
-            <br>
-            <h5> Preservar o Meio Ambiente:</h5>
-            <ul>
-                <li>Prevenir a poluição e minimizar qualquer dano ao meio ambiente que possa vir a ser gerado pelas
-                    suas atividades, serviços e produtos.</li>
-                <li>Atender as legislações, normas ambientais e outros requisitos subscritos aplicáveis.</li>
-            </ul>
-            <br>
-            <h5>Profissionalismo:</h5>
+</div>
 
-            <ul>
 
-                <li>Oportunizar eventos a campo, de demonstração e treinamento quanto a aplicabilidade dos insumos e
-                    manejo agricola.</li>
-                <li> Disponibilizar estrutura física capaz de oportunizar um vasto circulo de relacionamento
-                    empresa,
-                    fornecedor, cliente.</li>
-
-            </ul>
-
-            <p>Assim, a Qualitec, a fiel parceira do produtor, se consagra como um referencial de qualidade
-                empenhada na busca constante de permanecer ao lado do homem do campo.
-            </p>
-
-        </div>
-    </div>
-
-</section>
 <div class="jumbotron servicos" id="servico">
     <div class="container text-center">
         <h2 class="display-4">O que oferecemos:</h2>
