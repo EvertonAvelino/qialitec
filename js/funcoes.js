@@ -1,3 +1,14 @@
+filtraRepres(){
+    var select = document.getElementById('filtroRepres');
+    var cidades = select.options[select.selectedIndex].value;
+    if (cidades.value === 'cidade1') {
+        alert('escolheu cidade 1');
+    } if (cidades.value === 'cidade2') {
+        alert('escolheu cidade 2');
+    }
+};
+
+
 /*
 // Select all links with hashes
 $('.a[href*="#"]')

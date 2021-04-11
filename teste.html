@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form action='' method=''>
+
+        <h3>selecione uma cidade:</h3>
+        <select name="nome" id="nome">
+
+            <?php
+$sql = 'SELECT * FROM cidades ';
+foreach ($conn->query($sql) as $row) {
+   
+   echo '<option value="selecione uma cidade'.$row['id'].'">'.$row['nome'].'</option>';
+}
+					
+				?>
+        </select><br><br>
+        <input type="submit" value="Filtrar" onchange="filtrar()">
+    </form>
+
+</body>
+
+</html>
