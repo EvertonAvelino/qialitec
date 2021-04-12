@@ -4,18 +4,12 @@
 <body>
     <form action='' method=''>
 
-        <h3>selecione uma cidade:</h3>
-        <select name="nome" id="nome">
+        <select name="lista" id="lista-conteudos">
+            <option value="cidade1">cidade 1</option>
+            <option value="cidade2">cidade 2</option>
+            <option value="cidade3">cidade 3</option>
 
-            <?php
-$sql = 'SELECT * FROM cidades ';
-foreach ($conn->query($sql) as $row) {
-   
-   echo '<option value="selecione uma cidade'.$row['id'].'">'.$row['nome'].'</option>';
-}
-					
-				?>
-        </select><br><br>
+        </select>
         <input type="submit" value="Filtrar" onchange="filtrar()">
     </form>
 

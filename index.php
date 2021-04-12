@@ -1,6 +1,6 @@
 <?php
     include ("./header.html");
-    include_once("./conexao.php");
+    include ("./conexao.php");
 ?>
 
 <div class="jumbotron text-md-start descr-top" id="home">
@@ -161,23 +161,36 @@
     <h2 class="display-4 text-center">Nossos Representantes:</h2>
     <hr>
     <div class="container text-left">
-        <form action="" method="">
+        <form action="" method="POST">
             <div class="form-group">
                 <h3>selecione uma cidade:</h3>
-                <select name="nome" id="nome">
-
+                <select name="id_cidade" id="id_cidade">
                     <?php
-                    $sql = 'SELECT * FROM cidades ';
+                    $sql = 'SELECT * FROM cidade ';
                     foreach ($conn->query($sql) as $row) {
                     
-                    echo '<option value="selecione uma cidade'.$row['id'].'">'.$row['nome'].'</option>';
+                    echo '<option value="'.$row['id'].'">'.$row['nome'].'</option>';
+                     
                     }
                                         
 				?>
                 </select><br><br>
+
+                <input type="submit" name="submit" value="Enviar" />
             </div>
-            <h3 value="cidade"></h3>
         </form>
+
+        <?php
+         $id_cidade = $_POST['id_cidade']; 
+                
+        $sql = "SELECT representante.id,representante.nome as nome_representante, representante.telefone,cidade.nome as nome_cidade FROM representante INNER JOIN cidade WHERE    $id_cidade = representante.id  GROUP BY nome_representante AND nome_cidade";
+            foreach ($conn->query($sql) as $row) {                        
+                echo 'nome: '.$row['nome_representante'].'<br>'.'Telefone: '.$row['telefone'].'<br>'.'Cidades: '.$row['nome_cidade'].'<br><hr>';
+                          
+             } 
+            
+        ?>
+
 
     </div>
 </div>
