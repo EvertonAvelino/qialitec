@@ -1,5 +1,6 @@
 <?php
     include ("./header.html");
+    include ("./conexao.php");
 ?>
 
 <div class="jumbotron text-md-start descr-top" id="home">
@@ -156,10 +157,44 @@
         <img id="partners" src="#">
     </div>
 </div>
+<div class="jumbotron container-fluid" id="representante">
+    <h2 class="display-4 text-center">Nossos Representantes:</h2>
+    <hr>
+    <div class="container text-left">
+        <form action="" method="POST">
+            <div class="form-group">
+                <h3>selecione uma cidade:</h3>
+                <select name="id_cidade" id="id_cidade">
+                    <?php
+                    $sql = 'SELECT * FROM cidade ';
+                    foreach ($conn->query($sql) as $row) {
+                    
+                    echo '<option value="'.$row['id'].'">'.$row['nome'].'</option>';
+                     
+                    }
+                                        
+				?>
+                </select><br><br>
 
-<div id="representantes" class="container-fluid">
-    <h1>Representantes</h1>
+                <input type="submit" name="submit" value="Enviar" />
+            </div>
+        </form>
+
+        <?php
+         $id_cidade = $_POST['id_cidade']; 
+                
+        $sql = "SELECT representante.id,representante.nome as nome_representante, representante.telefone,cidade.nome as nome_cidade FROM representante INNER JOIN cidade WHERE    $id_cidade = representante.id  GROUP BY nome_representante AND nome_cidade";
+            foreach ($conn->query($sql) as $row) {                        
+                echo 'nome: '.$row['nome_representante'].'<br>'.'Telefone: '.$row['telefone'].'<br>'.'Cidades: '.$row['nome_cidade'].'<br><hr>';
+                          
+             } 
+            
+        ?>
+
+
+    </div>
 </div>
+
 <div id="localizacao" class="container-fluid">
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d840.7863764532725!2d-42.80304468129711!3d-20.854835363332107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa343e90cfbbfd1%3A0x59c58f2c005e459a!2sQualitec!5e1!3m2!1spt-BR!2sbr!4v1616034996562!5m2!1spt-BR!2sbr"
