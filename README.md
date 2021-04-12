@@ -42,7 +42,7 @@ O primeiro **push** de um repositório deve conter o nome do repositório remoto
 	
 Os demais **pushes** não precisam dessa informação
 
-	git push
+	git push origin master
 	
 
 ### Atualizar repositório local de acordo com o repositório remoto
